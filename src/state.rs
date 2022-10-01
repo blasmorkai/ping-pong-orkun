@@ -10,5 +10,6 @@ use cw_storage_plus::Item;
 //     pub owner: Addr,
 // }
 // pub const STATE: Item<State> = Item::new("state");
+// little change to delete
 
 pub const PING_COUNT: Item<Uint64> = Item::new("ping_count_key");
