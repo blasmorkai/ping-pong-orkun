@@ -1,7 +1,7 @@
-use schemars::JsonSchema;
-use serde::{Deserialize, Serialize};
+// use schemars::JsonSchema;
+// use serde::{Deserialize, Serialize};
 
-use cosmwasm_std::{Addr, Uint64};
+use cosmwasm_std::{Uint64};
 use cw_storage_plus::Item;
 
 // #[derive(Serialize, Deserialize, Clone, Debug, PartialEq, JsonSchema)]
@@ -13,3 +13,4 @@ use cw_storage_plus::Item;
 // little change to delete
 
 pub const PING_COUNT: Item<Uint64> = Item::new("ping_count_key");
+

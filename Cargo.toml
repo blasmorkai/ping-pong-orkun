@@ -1,5 +1,5 @@
 [package]
-name = "ping-pong"
+name = "ping_pong_orkun_bm"
 version = "0.1.0"
 authors = ["Blas Morkai <blas.morkai@gmail.com>"]
 edition = "2021"

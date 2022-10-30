@@ -3,7 +3,7 @@ use std::fs::create_dir_all;
 
 use cosmwasm_schema::{export_schema, remove_schemas, schema_for};
 
-use ping_pong::msg::{ExecuteMsg, GetCountResponse, InstantiateMsg, QueryMsg};
+use ping_pong_orkun_bm::msg::{ExecuteMsg, GetCountResponse, InstantiateMsg, QueryMsg};
 // use ping_pong::state::State;
 
 fn main() {
